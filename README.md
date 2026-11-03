@@ -15,6 +15,14 @@ Team Quad Core · MAIT Delhi · Hack the Circle 2026
 3. Double-click **install-windows.bat**. It installs FraudShield and starts the Guardian.
    Next time, double-click **run-guardian-windows.bat**.
 
+## Quick install on macOS / Linux (experimental)
+1. Install Python 3 (macOS: python.org; Ubuntu/Debian: `sudo apt install python3 python3-venv python3-tk`).
+2. Download and extract the ZIP, open Terminal in that folder and run:
+```bash
+bash install-mac-linux.sh
+```
+Next time: `bash run-guardian-mac-linux.sh`.
+
 ## Install
 ```bash
 pip install .                                        # from this folder
