@@ -7,13 +7,22 @@ stores nothing, and drafts a ready-to-file complaint for the **1930** helpline.
 Team Quad Core · MAIT Delhi · Hack the Circle 2026
 
 **Live site:** https://fraudshield-india.ai.studio/  
-**Download (Windows):** https://github.com/NamitProYt/fraudshield/releases/latest/download/fraudshield-package.zip
+**Download (Windows / Mac / Linux):** https://github.com/NamitProYt/fraudshield/archive/refs/heads/main.zip
 
 ## Quick install on Windows (no commands)
 1. Install Python from python.org (tick **Add python.exe to PATH**).
-2. Click **Code -> Download ZIP** on GitHub (or use the download link above) and **Extract All**.
+2. Click **Code -> Download ZIP** on GitHub (or use the download link above) and **Extract All**
+   (the folder is called `fraudshield-main`).
 3. Double-click **install-windows.bat**. It installs FraudShield and starts the Guardian.
    Next time, double-click **run-guardian-windows.bat**.
+
+## Run the Guardian from a terminal
+After installing (`py -m pip install .` inside this folder), start it with:
+```bash
+py -m fraudshield.cli watch          # Windows
+python3 -m fraudshield.cli watch     # macOS / Linux
+```
+Copy any message and the warning pop-up appears. Close the window (or press Ctrl+C) to stop.
 
 ## Quick install on macOS / Linux (experimental)
 1. Install Python 3 (macOS: python.org; Ubuntu/Debian: `sudo apt install python3 python3-venv python3-tk`).
