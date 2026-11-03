@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fraudshield"
+version = "0.2.1"
+description = "Open-source scanner for 'digital arrest' and UPI scam messages, with a ready 1930 complaint draft."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "Team Quad Core" }]
+keywords = ["fraud", "scam", "upi", "digital-arrest", "cybersecurity", "india"]
+
+[project.scripts]
+fraudshield = "fraudshield.cli:main"
+
+[tool.setuptools]
+packages = ["fraudshield"]

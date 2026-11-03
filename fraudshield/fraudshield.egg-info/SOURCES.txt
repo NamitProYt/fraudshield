@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+fraudshield/__init__.py
+fraudshield/cli.py
+fraudshield/report.py
+fraudshield/rules.py
+fraudshield/watch.py
+fraudshield.egg-info/PKG-INFO
+fraudshield.egg-info/SOURCES.txt
+fraudshield.egg-info/dependency_links.txt
+fraudshield.egg-info/entry_points.txt
+fraudshield.egg-info/top_level.txt
+tests/test_corpus.py
+tests/test_rules.py
